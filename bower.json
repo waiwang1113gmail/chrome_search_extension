@@ -1,0 +1,20 @@
+{
+  "name": "Chrome Search Extension",
+  "authors": [
+    "Weige <waiwang1113@gmail.com>"
+  ],
+  "description": "A Chrome search extension for selected text on use chosen websites",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

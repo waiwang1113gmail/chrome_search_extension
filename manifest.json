@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Search Extension",
+  "description": "This extension allow user to search selected text in different websites",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage","contextMenus","tabs"
+  ],
+  "options_page": "options.html"
+}
